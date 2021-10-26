@@ -1,0 +1,23 @@
+.PlatformSection {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: space-around;
+}
+
+.PlatformSection > div > p {
+    color: red;
+    font-size: 150px;
+    width: 200%;
+    font-family: OriginTech;
+}
+
+.PlatformSection div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.PlatformSection > div > img {
+    width: 100%;
+}
