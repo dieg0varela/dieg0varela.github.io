@@ -1,0 +1,36 @@
+.AboutUsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AboutUsImgs {
+    display: flex;
+    justify-content: center;
+}
+
+/* Ro8s IMG */
+.AboutUsImgs :nth-child(1) {
+    width: 10%;
+    height: 10%;
+}
+
+/* Hernan IMG */
+.AboutUsImgs :nth-child(2) {
+    width: 10%;
+    height: 10%;
+}
+
+/* Rai IMG */
+.AboutUsImgs :nth-child(3) {
+    width: 10%;
+    height: 10%;
+}
+
+/* Diego IMG */
+.AboutUsImgs :nth-child(4) {
+    position: relative;
+    top: 13px;
+    width: 9%;
+    height: 9%;
+}
