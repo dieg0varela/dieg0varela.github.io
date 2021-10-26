@@ -5,7 +5,16 @@
 
 html {
     font-family: Odibee Sans;
+    z-index: 1;
     height: 100%;
     font-size: 50px;
     scroll-behavior: smooth;
+}
+
+.background {
+    position: fixed;
+    opacity: 0.2;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
 }
