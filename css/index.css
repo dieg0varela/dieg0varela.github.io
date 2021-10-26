@@ -1,4 +1,10 @@
-html {
+@font-face {
+    font-family: "OriginTech";
+    src: url("../Fonts/OriginTech_personal_use.otf");
+}
 
+html {
+    font-family: Odibee Sans;
+    height: 100%;
     scroll-behavior: smooth;
 }

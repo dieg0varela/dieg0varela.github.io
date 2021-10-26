@@ -1,0 +1,22 @@
+.RonnySection
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: space-around;
+    width: 70%;
+    height: 100%;
+}
+
+.RonnySection > div > p {
+    color: red;
+    font-size: 150px;
+    width: 200%;
+    font-family: OriginTech;
+}
+
+.RonnySection div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

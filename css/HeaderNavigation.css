@@ -1,0 +1,20 @@
+.HeaderNavigation
+{
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.HeaderNavigation-Items {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    width: 200px;
+}
+
+.HeaderNavigation-Items > span {
+    cursor: pointer;
+}
