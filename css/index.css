@@ -3,6 +3,12 @@
     src: url("../Fonts/OriginTech_personal_use.otf");
 }
 
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: Odibee Sans;
     z-index: 1;
@@ -22,4 +28,30 @@ html {
 a {
     text-decoration: none;
     color: black;
+}
+
+section {
+    height: 100vh;
+}
+
+.s1 {
+    background-image: url("../imgs/Pushed01loadingscreen.png");
+
+}
+
+
+.s1 h1{
+    margin-left: 45%;
+    margin-right: auto;
+
+}
+
+.s2{
+    background-image: url("../imgs/orange_background.png");
+    background-size: cover;
+}
+
+.s2 img{
+    padding-right: 10%;
+
 }

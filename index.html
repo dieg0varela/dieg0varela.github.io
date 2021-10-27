@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pushed-01</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/HeaderNavigation.css">
@@ -17,39 +16,44 @@
 </head>
 <body>
     <img class="background" src="imgs/background.png" alt="">
+    <div class="HeaderNavigation">
+        <img src="imgs/LogoAttempt_1.png" alt="">
+            <div class="HeaderNavigation-Items">
+                <a href="https://github.com/RaimundoGallino/Pushed-01"> <span> Game </span> </a>
+                <a href="#AboutUsSection"> <span> About us </span> </a>
+            </div>
+    </div>
     <div id="fullpage">
-        <section style="height:100vh" class="section s1">
-            <div class="HeaderNavigation">
-                <img src="imgs/LogoAttempt_1.png" alt="">
-                <div>
-                    <div class="HeaderNavigation-Items">
-                        <a href="https://github.com/RaimundoGallino/Pushed-01"> <span> Game </span> </a>
-                        <a href="#AboutUsSection"> <span> About us </span> </a>
-                    </div>
-                </div>
+        <section class="section s1">
+            <div>
+                <h1>Pushed-01</h1>
             </div>
-            
-            <img src="imgs/Pushed01loadingscreen.png" alt="Pirulo" width="100%">
+            <div class="LandingImage">
+                <!--<img src="imgs/Pushed01loadingscreen.png" alt="Pirulo"> -->
+            </div>
         </section>
         <br>
-        <section style="height:100vh" class="section s2">
+        <section class="section s2">
             <div class="AboutUsSection">
-                <img src="imgs/Ronny.png" alt="">
+                <img src="imgs/Masterchief_menuBack.png" alt="">
+
             </div>
         </section>
         <br>
-        <section style="height:100vh" class="section s3">
+        <section class="section s3">
             <div class="AboutUsSection">
                 <img src="imgs/Platform.png" alt="">
             </div>
         </section>
         <br>
-        <section id="AboutUsSection" style="height:100vh" class="section s4">
+        <section id="AboutUsSection" class="section s4">
             <div class="AboutUsSection">
                 <img src="imgs/Aboutus.png" alt="">
             </div>
         </section>
-    </div>    <script src="js/fullpage.min.js"></script>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/fullpage.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

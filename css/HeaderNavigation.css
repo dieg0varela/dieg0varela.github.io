@@ -1,18 +1,34 @@
 .HeaderNavigation
 {
     display: flex;
-    height: fit-content;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    width:100%;
+	height:90px;
+	top:0 px;
+	position:absolute;
+	z-index:999;
+	background-color: rgb(255, 255, 255);
+	/*opacity:0.8;*/
+	padding-top: 10px;
 }
 
+.HeaderNavigation img{
+    margin-bottom: 13px;
+    margin-left: 20px;
+}
+
+
 .HeaderNavigation-Items {
-    display: flex;
     justify-content: space-around;
     font-size: 30px;
     width: 200px;
+}
+
+.HeaderNavigation-Items a{
+    margin-right: 20px;
 }
 
 .HeaderNavigation-Items > span {
