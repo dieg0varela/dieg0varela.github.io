@@ -12,7 +12,51 @@
 
 
 .s4{
-    background-image: url("../imgs/S4/MacBook\ -\ 4.png");
+    background-image: url("../imgs/S4/backgroundAboutus.png");
     background-position: center;
     background-size: cover;
+}
+
+.s4 .Profiles {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10%;
+}
+
+.s4 .Profiles > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s4 .Profiles .Hernanes {
+    width: 272px;
+}
+
+.s4 .Profiles .Diego {
+    position: absolute;
+    bottom: -35px;
+    width: 333px;
+}
+
+.s4 .Hello{
+    color:black;
+    font-family: OriginTech;
+    top: 30%;
+    left: 10%;
+    font-size: 75px;
+    margin-right: 2%;
+}
+
+.s4 .text
+{
+    color: #FFF3E0;
+    font-size: 50px;
+    position: absolute;
+    text-align: left;
+    top: 25%;
+    left: 50%;
+    width: 45%;
+    z-index: 3;
 }

@@ -22,8 +22,12 @@ new fullpage('#fullpage', {
                 tl.fromTo(text2, 0.5, {y: '-50', opacity: 0}, {y: 0, opacity: 1});
                 break;
             case 2:
+                const platformText = section.querySelector('.section .text');
+                tl.fromTo(platformText, 0.5, {y: '-50', opacity: 0}, {y: 0, opacity: 1});
                 break;
             case 3:
+                const aboutUsText = section.querySelector('.section .text');
+                tl.fromTo(aboutUsText, 0.5, {y: '-50', opacity: 0}, {y: 0, opacity: 1});
                 break;
         }
         //tl.fromTo(title,0.5, {y: '50', opacity: 0}, {y: 0, opacity: 1});
