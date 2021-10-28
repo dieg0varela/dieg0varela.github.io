@@ -63,9 +63,10 @@ section {
 
 .s2 .Hello{
     font-family: OriginTech;
-    position: absolute;
     top: 30%;
     left: 10%;
+    font-size: 50px;
+    margin-right: 2%;
 }
 
 .s2 .text{

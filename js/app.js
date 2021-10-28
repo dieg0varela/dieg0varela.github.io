@@ -9,8 +9,8 @@ new fullpage('#fullpage', {
         const tl = new TimelineMax({delay: 0.5});
         //tl.fromTo(title,0.5, {y: '50', opacity: 0}, {y: 0, opacity: 1});
         tl.fromTo(img,0.5, {x: '50', opacity: 0}, {x: 0, opacity: 1});
-        tl.fromTo(title,0.5, {x: '-50', opacity: 0}, {x: 0, opacity: 1});
         tl.fromTo(text,0.5, {x: '-50', opacity: 0}, {x: 0, opacity: 1});
+        //tl.fromTo(title,0.5, {x: '-50', opacity: 0}, {x: 0, opacity: 1});
     }
 })
 
