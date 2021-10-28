@@ -32,10 +32,13 @@ a {
 
 section {
     height: 100vh;
+    position: relative;
+    text-align: center;
 }
 
 .s1 {
     background-image: url("../imgs/Pushed01loadingscreen.png");
+    background-size: cover;
 
 }
 
@@ -53,5 +56,23 @@ section {
 
 .s2 img{
     padding-right: 10%;
+    max-width:100%;
+    max-height: auto;
 
+}
+
+.s2 .Hello{
+    font-family: OriginTech;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.s2 .text{
+    font-size: 30px;
+    position: absolute;
+    text-align: left;
+    top: 40%;
+    left: 10%;
+    width: 45%;
 }
