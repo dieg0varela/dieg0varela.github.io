@@ -6,20 +6,22 @@ new fullpage('#fullpage', {
         const section = destination.item;
         const tl = new TimelineMax({delay: 0.5});
         switch (index){
-            case 1:
+            case 0:
                 const img1 = section.querySelector('.section img');
                 const title = section.querySelector('.section .Hello');
                 const text1 = section.querySelector('.section .text');
                 tl.fromTo(img1,0.5, {x: '50', opacity: 0}, {x: 0, opacity: 1});
                 tl.fromTo(text1,0.5, {x: '-50', opacity: 0}, {x: 0, opacity: 1});
                 break;
-            case 2:
+            case 1:
                 const triangle = section.querySelector('.section #triangle');
                 const img2 = section.querySelector('.section #platform');
                 const text2 = section.querySelector('.section .text');
                 tl.fromTo(triangle, 0.5, {x: '50', opacity: 0}, {x: 0, opacity: 1});
                 tl.fromTo(img2, 0.5, {x: '-50', opacity: 0}, {x: 0, opacity: 1});
                 tl.fromTo(text2, 0.5, {y: '-50', opacity: 0}, {y: 0, opacity: 1});
+                break;
+            case 2:
                 break;
             case 3:
                 break;

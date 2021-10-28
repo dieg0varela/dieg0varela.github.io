@@ -1,4 +1,4 @@
-.RonnySection
+/*.RonnySection
 {
     display: flex;
     flex-direction: row;
@@ -19,4 +19,42 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+}*/
+
+
+/*.s2{
+    background-image: url("../imgs/S2/MacBook\ -\ 3.png");
+    background-size: cover;
+}*/
+
+
+
+.s1{
+    background-image: url("../imgs/BackgroundRonnyRect.png");
+    background-size: cover;
+}
+
+.s1 #Ronny{
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    height: 100%;
+}
+
+
+.s1 .Hello{
+    font-family: OriginTech;
+    top: 30%;
+    left: 10%;
+    font-size: 50px;
+    margin-right: 2%;
+}
+
+.s1 .text{
+    font-size: 30px;
+    position: absolute;
+    text-align: left;
+    top: 35%;
+    left: 10%;
+    width: 45%;
 }

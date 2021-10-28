@@ -1,4 +1,4 @@
-.AboutUsSection {
+/*.AboutUsSection {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,4 +8,11 @@
 
 .AboutUsSection img {
     height: 100%;
+}*/
+
+
+.s4{
+    background-image: url("../imgs/S4/FondoAboutus.png");
+    background-position: center;
+    background-size: cover;
 }
