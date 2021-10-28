@@ -1,6 +1,44 @@
 .s3 {
     background-image: url("../imgs/S2/MacBook\ -\ 3.png");
     background-size: cover;
+    z-index: -1;
 }
 
+.s3 img {
+    position: absolute;
+}
 
+.s3 .Platform
+{
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.s3 .Triangle
+{
+    bottom: 0;
+    left: 0;
+    width: 75%;
+    z-index: 2;
+}
+
+.s3 .Hello{
+    color:black;
+    font-family: OriginTech;
+    top: 30%;
+    font-size: 75px;
+    margin-right: 2%;
+}
+
+.s3 .text
+{
+    color: #FFF3E0;
+    font-size: 50px;
+    position: absolute;
+    text-align: left;
+    top: 25%;
+    left: 15%;
+    width: 45%;
+    z-index: 3;
+}

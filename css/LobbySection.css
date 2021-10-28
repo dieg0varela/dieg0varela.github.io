@@ -16,6 +16,7 @@
     width: 100%;
     background-image: url("../imgs/HomunCulosBEBE.png");
     background-size: cover;
+    z-index: 1;
 }
 
 .s2 .Hello{
