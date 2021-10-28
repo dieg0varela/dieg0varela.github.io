@@ -38,7 +38,7 @@ section {
 
 .s1 {
     background-image: url("../imgs/Pushed01loadingscreen.png");
-    background-size: cover;
+    background-size: 100%;
 
 }
 
@@ -50,7 +50,7 @@ section {
 }
 
 .s2{
-    background-image: url("../imgs/orange_background.png");
+    background-image: url("../imgs/S2/orange_background.png");
     background-size: cover;
 }
 
@@ -58,7 +58,6 @@ section {
     padding-right: 10%;
     max-width:100%;
     max-height: auto;
-
 }
 
 .s2 .Hello{
@@ -73,7 +72,50 @@ section {
     font-size: 30px;
     position: absolute;
     text-align: left;
-    top: 40%;
+    top: 35%;
     left: 10%;
     width: 45%;
+}
+
+.s3{
+    background-image: url("../imgs/S3/MacBook\ -\ 3.png");
+    background-size: cover;
+}
+
+.s3 #triangle{
+    /*max-width:100%;
+    max-height: 70%;*/
+    width: 90%;
+    height: 50%;
+    bottom: -26%;
+    right: -5%;
+    position: relative;
+    z-index: 2;
+}
+
+.s3 #platform{
+    max-width:100%;
+    max-height: 100%;
+    left: 0%;
+    bottom: -1%;
+    position: absolute;
+    z-index: 1;
+}
+
+.s3 .Hello{
+    font-family: OriginTech;
+    top: 30%;
+    left: 10%;
+    font-size: 50px;
+    margin-right: 2%;
+}
+
+.s3 .text{
+    font-size: 30px;
+    position: absolute;
+    text-align: left;
+    top: 30%;
+    left: 40%;
+    width: 45%;
+    z-index: 3;
 }
