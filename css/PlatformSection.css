@@ -1,26 +1,6 @@
-/*.PlatformSection {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.s3 {
+    background-image: url("../imgs/S2/MacBook\ -\ 3.png");
+    background-size: cover;
 }
-
-.PlatformSection > div > p {
-    color: red;
-    font-size: 150px;
-    width: 200%;
-    font-family: OriginTech;
-}
-
-.PlatformSection div {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-
-.PlatformSection > div > img {
-    width: 100%;
-}*/
-
-
 
 

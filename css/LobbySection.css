@@ -3,50 +3,38 @@
     background-size: cover;
 }
 
-.s2 .algo{
-
-    background-image: url("../imgs/HomunCulosBEBE.png");
-    background-size: cover;
-    height: 90%;
+.s2 .Images :nth-child(1)
+{
     position: absolute;
-}
-
-.s2 #triangle{
-    /*max-width:100%;
-    max-height: 70%;*/
-    /*width: 90%;
-    height: 50%;*/
-    left: -5%;
-    position: relative;
-    z-index: 2;
-}
-
-
-.s2 #platform{
-    /*max-width:100%;
-    max-height: 100%;*/
-    height: 100%;
-    top: -0%;
-    left: 0%;
-    bottom: -10%;
-    position: absolute;
+    left:0;
     z-index: 1;
 }
 
+.s2 .Images :nth-child(2)
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../imgs/HomunCulosBEBE.png");
+    background-size: cover;
+}
+
 .s2 .Hello{
+    color:black;
     font-family: OriginTech;
     top: 30%;
     left: 10%;
-    font-size: 50px;
+    font-size: 75px;
     margin-right: 2%;
 }
 
-.s2 .text{
-    font-size: 30px;
+.s2 .text
+{
+    color: #FFF3E0;
+    font-size: 50px;
     position: absolute;
     text-align: left;
-    top: 30%;
-    left: 40%;
+    top: 25%;
+    left: 53%;
     width: 45%;
     z-index: 3;
 }

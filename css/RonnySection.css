@@ -43,18 +43,20 @@
 
 
 .s1 .Hello{
+    color: black;
     font-family: OriginTech;
     top: 30%;
-    left: 10%;
-    font-size: 50px;
+    left: 8%;
+    font-size: 75px;
     margin-right: 2%;
 }
 
 .s1 .text{
-    font-size: 30px;
+    color: #FFF3E0;
+    font-size: 50px;
     position: absolute;
     text-align: left;
     top: 35%;
-    left: 10%;
+    left: 8%;
     width: 45%;
 }
